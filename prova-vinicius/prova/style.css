@@ -1,0 +1,137 @@
+*{
+    margin: 20px;
+    padding: auto;
+}
+
+
+body{
+    background-color: #0a4b73;
+    height: 2000px;
+}
+
+header{
+    top: 200px;
+    
+}
+
+
+#item-menu{
+    background-color: aliceblue;
+    height: 80px;
+    float: right;
+    margin-top: 15px;
+    
+    
+}
+
+.item-lista{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+#navegacao{
+
+    background-color: #2298E1;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(0, 0, 0, 0.61);
+    padding: 15px;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+
+#logo{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 150px;
+    float: left;
+}
+
+
+
+@media screen and (max-width: 900px){
+    #navegacao{
+        background-color: black;
+        width: 90%;
+        padding: 5px;
+        font-size: 25px;
+    }
+
+    #logo{
+        float: none;
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+    
+}
+
+main {
+    background-color: #2298E1; 
+    padding: 20px;
+    
+}
+
+#caixa {
+    background-color: white; 
+    width: 90%;
+    height: 690px;
+    margin: auto;
+    padding: 20px;
+    overflow: hidden; 
+    
+}
+
+.bloco {
+    background-color: #f2f2f2;
+    width: 30%;      
+    height: 300px;
+    margin: 1.5%;
+    float: left;
+    
+    
+    
+}
+
+ul {
+  margin: 0;       
+  padding: 1;     
+}
+
+li {
+  margin: 0;     
+  
+}
+
+footer {
+    background-color: #2298E1;
+    display: flex; /* ativa o flex */
+    width: auto;
+    height: 350px;             
+    justify-content: center;     /* centraliza na horizontal */
+    align-items: center;         /* centraliza na vertical */
+                 /* espaço entre as caixas */
+    text-align: center;
+
+
+
+}
+
+.caixa2 {
+    background-color: #f2f2f2;
+    width: 25%;      
+    height: 300px;
+}
+
+
+
+
+   
+
+
+   
+
+   
